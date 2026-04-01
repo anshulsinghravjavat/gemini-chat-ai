@@ -13,7 +13,7 @@ import java.util.Map;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/qna")
-
+@CrossOrigin(origins="https://gemini-chat-ai-1.onrender.com")
 public class AiController {
 
     private final QnAService qnAService;
