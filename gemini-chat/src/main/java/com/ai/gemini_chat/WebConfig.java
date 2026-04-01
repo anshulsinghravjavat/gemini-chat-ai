@@ -10,7 +10,7 @@ public class WebConfig implements WebMvcConfigurer {
 
         WebMvcConfigurer.super.addCorsMappings(registry);
         registry.addMapping("/**")
-                .allowedOrigins("http://localhost:5174")
+                .allowedOrigins("https://gemini-chat-ai-1.onrender.com")
                 .allowedMethods("Get","PUT","POST","DELETE","OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(true);
